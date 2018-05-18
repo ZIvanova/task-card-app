@@ -1,0 +1,24 @@
+.create-new-task {
+    margin: 50px auto 30px;
+    max-width: 400px;
+    border-radius: 0 25px 0 25px;
+    border: 2px solid orange;
+    font-size: 0;
+}
+.create-new-task p {
+    font-size: 14px;
+}
+.create-new-task input {
+    padding: 10px 20px;
+    border-bottom-left-radius: 25px;
+    height: 40px;
+    width: 80%;
+}
+.create-new-task button {
+    padding: 10px;    
+    border-top-right-radius: 23px;
+    height: 40px;
+    width: 20%;
+    background: orange;
+    color: #fff;
+}
