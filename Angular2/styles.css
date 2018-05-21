@@ -1,0 +1,49 @@
+html, body, div, h1, h2, h3, h4, h5, h6, ul, li, a, p, input, button, form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: inherit;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.card-element {
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px 0 10px 0;
+    border-top: 2px solid orange;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    vertical-align: top;
+}
+.card-element.example {
+    display: block;
+    margin: 0 auto;
+}
+.card-element .card-content {
+    padding: 15px 20px;
+    color: #333;
+}
+.card-element .card-status {
+    padding: 10px 20px;
+    border-radius: 0 0 10px 0;
+    background: orange;
+    font-style: italic;
+    text-align: right;
+    font-size: 13px;
+    color: #444;
+}
+.empty-list {
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: #eee;
+    text-align: center;
+    color: #444;
+    max-width: 400px;
+}

@@ -1,9 +1,10 @@
 
-<div class="card-element" >
+<div class="card-element">
     <div class="card-content">
         <p>{{ task.content }}</p>
     </div>
-    <div class="card-status">
-        <p>{{ task.completed }}</p>
+    <div class="card-status" (click)="statusToggle()" [class.completed]="task.completed" >
+        <p *ngIf="!task.completed" >not Completed</p>
+        <p *ngIf="task.completed" >Completed</p>
     </div>
 </div>

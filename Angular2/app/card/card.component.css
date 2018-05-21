@@ -20,3 +20,7 @@
     font-size: 13px;
     color: #444;
 }
+.card-element .card-status.completed {
+    background: olivedrab;
+    color: #fff;
+}
